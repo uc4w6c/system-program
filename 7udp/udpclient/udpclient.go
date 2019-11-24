@@ -22,5 +22,5 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Printf("Received: %s\n", string(buffer[:length]))
+	fmt.Printf("Received: %s\n", string(buffer[:length]))	
 }
